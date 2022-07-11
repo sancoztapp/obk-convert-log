@@ -9,3 +9,8 @@
 - É possível passar mais de um arquivo
 
         node convert.js filename-1.json filename-2.json ...
+
+- Comando para gerar tags
+
+        git tag -a v1.0.0 -m "1.0.0"
+        git push origin v1.0.0
