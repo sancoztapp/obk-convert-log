@@ -18,6 +18,7 @@ function whiteLogFile(fileName, data) {
         .replace(/\\\\\\"\\",/g, "'\",")
         .replace(/\\\\\\"/g, '"')
         .replace(/\\n/g, '')
+        .replace(/\\t/g, '')
         .replace(/\\\"/g, '"')
         .replace(/\\/g, '')
         .replace(/"{/g, '{')
